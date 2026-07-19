@@ -142,3 +142,20 @@ header {
 .child:hover .label {
     display: block;
 } */
+/* Tablet View - 772px */
+@media (min-width: 772px) {
+    div {
+        display: inline-block;
+        width: 45%;
+    }
+    img {
+        max-height: 30vh;
+    }
+}
+
+/* Large Screen View - 998px */
+@media (min-width: 998px) {
+    div {
+        width: 30%;
+    }
+}
